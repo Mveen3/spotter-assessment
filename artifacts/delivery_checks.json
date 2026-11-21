@@ -1,0 +1,10 @@
+{
+  "submission_rows": 12000,
+  "december_rows": 31,
+  "input_hashes_unchanged": true,
+  "template_order_preserved": true,
+  "report_docx_valid": true,
+  "report_pdf_present": true,
+  "reproducibility": "identical_prediction_files_and_locked_metrics",
+  "submission_sha256": "7714c4311276f5abdd69bae22cdfb2e3a88d3f5d7578ee36439ac7585e8a91f5"
+}

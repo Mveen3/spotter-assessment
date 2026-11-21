@@ -1,0 +1,298 @@
+[
+  {
+    "mode": "enriched",
+    "fold": "may_jun",
+    "model": "equipment",
+    "rounds": 1500,
+    "inner_split": null,
+    "elapsed_seconds": 0.13730643199960468,
+    "device": "cpu"
+  },
+  {
+    "mode": "enriched",
+    "fold": "may_jun",
+    "model": "ridge_rate",
+    "rounds": 1500,
+    "inner_split": null,
+    "elapsed_seconds": 0.24791888800245943,
+    "device": "cpu"
+  },
+  {
+    "mode": "enriched",
+    "fold": "may_jun",
+    "model": "lgb_l2",
+    "rounds": 140,
+    "inner_split": {
+      "start": "2025-04-01",
+      "train_rows": 14291,
+      "valid_rows": 4819,
+      "purged": 0
+    },
+    "elapsed_seconds": 0.8145983919966966,
+    "device": "cpu"
+  },
+  {
+    "mode": "enriched",
+    "fold": "may_jun",
+    "model": "lgb_l1",
+    "rounds": 855,
+    "inner_split": {
+      "start": "2025-04-01",
+      "train_rows": 14291,
+      "valid_rows": 4819,
+      "purged": 0
+    },
+    "elapsed_seconds": 3.1546563349984353,
+    "device": "cpu"
+  },
+  {
+    "mode": "enriched",
+    "fold": "may_jun",
+    "model": "lgb_rate",
+    "rounds": 58,
+    "inner_split": {
+      "start": "2025-04-01",
+      "train_rows": 14291,
+      "valid_rows": 4819,
+      "purged": 0
+    },
+    "elapsed_seconds": 0.5714776300010271,
+    "device": "cpu"
+  },
+  {
+    "mode": "enriched",
+    "fold": "may_jun",
+    "model": "xgb_l2",
+    "rounds": 113,
+    "inner_split": {
+      "start": "2025-04-01",
+      "train_rows": 14291,
+      "valid_rows": 4819,
+      "purged": 0
+    },
+    "elapsed_seconds": 0.827286309999181,
+    "device": "cpu"
+  },
+  {
+    "mode": "enriched",
+    "fold": "jul_aug",
+    "model": "equipment",
+    "rounds": 1500,
+    "inner_split": null,
+    "elapsed_seconds": 0.1143116250023013,
+    "device": "cpu"
+  },
+  {
+    "mode": "enriched",
+    "fold": "jul_aug",
+    "model": "ridge_rate",
+    "rounds": 1500,
+    "inner_split": null,
+    "elapsed_seconds": 0.2603773349983385,
+    "device": "cpu"
+  },
+  {
+    "mode": "enriched",
+    "fold": "jul_aug",
+    "model": "lgb_l2",
+    "rounds": 179,
+    "inner_split": {
+      "start": "2025-06-01",
+      "train_rows": 24023,
+      "valid_rows": 4783,
+      "purged": 0
+    },
+    "elapsed_seconds": 1.0659385149992886,
+    "device": "cpu"
+  },
+  {
+    "mode": "enriched",
+    "fold": "jul_aug",
+    "model": "lgb_l1",
+    "rounds": 1207,
+    "inner_split": {
+      "start": "2025-06-01",
+      "train_rows": 24023,
+      "valid_rows": 4783,
+      "purged": 0
+    },
+    "elapsed_seconds": 5.521978587996273,
+    "device": "cpu"
+  },
+  {
+    "mode": "enriched",
+    "fold": "jul_aug",
+    "model": "lgb_rate",
+    "rounds": 101,
+    "inner_split": {
+      "start": "2025-06-01",
+      "train_rows": 24023,
+      "valid_rows": 4783,
+      "purged": 0
+    },
+    "elapsed_seconds": 0.905141041999741,
+    "device": "cpu"
+  },
+  {
+    "mode": "enriched",
+    "fold": "jul_aug",
+    "model": "xgb_l2",
+    "rounds": 212,
+    "inner_split": {
+      "start": "2025-06-01",
+      "train_rows": 24023,
+      "valid_rows": 4783,
+      "purged": 0
+    },
+    "elapsed_seconds": 1.3650504679972073,
+    "device": "cpu"
+  },
+  {
+    "mode": "core",
+    "fold": "may_jun",
+    "model": "equipment",
+    "rounds": 1500,
+    "inner_split": null,
+    "elapsed_seconds": 0.09133072300028289,
+    "device": "cpu"
+  },
+  {
+    "mode": "core",
+    "fold": "may_jun",
+    "model": "ridge_rate",
+    "rounds": 1500,
+    "inner_split": null,
+    "elapsed_seconds": 0.18125026999769034,
+    "device": "cpu"
+  },
+  {
+    "mode": "core",
+    "fold": "may_jun",
+    "model": "lgb_l2",
+    "rounds": 190,
+    "inner_split": {
+      "start": "2025-04-01",
+      "train_rows": 14291,
+      "valid_rows": 4819,
+      "purged": 0
+    },
+    "elapsed_seconds": 0.8958558039958007,
+    "device": "cpu"
+  },
+  {
+    "mode": "core",
+    "fold": "may_jun",
+    "model": "lgb_l1",
+    "rounds": 1021,
+    "inner_split": {
+      "start": "2025-04-01",
+      "train_rows": 14291,
+      "valid_rows": 4819,
+      "purged": 0
+    },
+    "elapsed_seconds": 3.417959804995917,
+    "device": "cpu"
+  },
+  {
+    "mode": "core",
+    "fold": "may_jun",
+    "model": "lgb_rate",
+    "rounds": 75,
+    "inner_split": {
+      "start": "2025-04-01",
+      "train_rows": 14291,
+      "valid_rows": 4819,
+      "purged": 0
+    },
+    "elapsed_seconds": 0.5834679159961524,
+    "device": "cpu"
+  },
+  {
+    "mode": "core",
+    "fold": "may_jun",
+    "model": "xgb_l2",
+    "rounds": 129,
+    "inner_split": {
+      "start": "2025-04-01",
+      "train_rows": 14291,
+      "valid_rows": 4819,
+      "purged": 0
+    },
+    "elapsed_seconds": 0.8638534709971282,
+    "device": "cpu"
+  },
+  {
+    "mode": "core",
+    "fold": "jul_aug",
+    "model": "equipment",
+    "rounds": 1500,
+    "inner_split": null,
+    "elapsed_seconds": 0.11893163599597756,
+    "device": "cpu"
+  },
+  {
+    "mode": "core",
+    "fold": "jul_aug",
+    "model": "ridge_rate",
+    "rounds": 1500,
+    "inner_split": null,
+    "elapsed_seconds": 0.23872413099888945,
+    "device": "cpu"
+  },
+  {
+    "mode": "core",
+    "fold": "jul_aug",
+    "model": "lgb_l2",
+    "rounds": 165,
+    "inner_split": {
+      "start": "2025-06-01",
+      "train_rows": 24023,
+      "valid_rows": 4783,
+      "purged": 0
+    },
+    "elapsed_seconds": 0.9743134899981669,
+    "device": "cpu"
+  },
+  {
+    "mode": "core",
+    "fold": "jul_aug",
+    "model": "lgb_l1",
+    "rounds": 1476,
+    "inner_split": {
+      "start": "2025-06-01",
+      "train_rows": 24023,
+      "valid_rows": 4783,
+      "purged": 0
+    },
+    "elapsed_seconds": 6.007029572996544,
+    "device": "cpu"
+  },
+  {
+    "mode": "core",
+    "fold": "jul_aug",
+    "model": "lgb_rate",
+    "rounds": 73,
+    "inner_split": {
+      "start": "2025-06-01",
+      "train_rows": 24023,
+      "valid_rows": 4783,
+      "purged": 0
+    },
+    "elapsed_seconds": 0.6786363680002978,
+    "device": "cpu"
+  },
+  {
+    "mode": "core",
+    "fold": "jul_aug",
+    "model": "xgb_l2",
+    "rounds": 192,
+    "inner_split": {
+      "start": "2025-06-01",
+      "train_rows": 24023,
+      "valid_rows": 4783,
+      "purged": 0
+    },
+    "elapsed_seconds": 1.212731765001081,
+    "device": "cpu"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "stage": "complete",
+  "completed_tasks": 33,
+  "planned_tasks": 33,
+  "percent": 100.0,
+  "elapsed_seconds": 64.36871766400145,
+  "eta_seconds": 0.0,
+  "peak_ram_mib": 435.36328125,
+  "gpu_memory": "12 MiB",
+  "config_hash": "ff42d384d837f870692a4ece9c76c05a1d93cd85b56de536f78ff4cc5a841509"
+}

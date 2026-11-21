@@ -1,0 +1,15 @@
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+artifacts/checkpoints/
+artifacts/model_bundle.pkl
+*.tmp
+*.aux
+*.log
+*.out
+reports/freight_rate_report.tex

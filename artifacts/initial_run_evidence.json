@@ -1,0 +1,87 @@
+{
+  "selection": {
+    "enriched": {
+      "weights": {
+        "equipment": 0.25,
+        "lgb_l1": 0.75
+      },
+      "mean_fold_rmse": 630.4100650451057,
+      "mean_fold_mae": 122.54962403987696,
+      "fold_metrics": [
+        {
+          "rows": 9671,
+          "rmse": 622.3262485680065,
+          "mae": 111.10341848076739,
+          "wape_percent": 4.6733319064343295,
+          "r2": 0.8256965400518944,
+          "bias": -9.409600241497156
+        },
+        {
+          "rows": 9696,
+          "rmse": 638.4938815222049,
+          "mae": 133.99582959898652,
+          "wape_percent": 5.449424462573182,
+          "r2": 0.829665717940909,
+          "bias": -95.89706053238376
+        }
+      ]
+    },
+    "core": {
+      "weights": {
+        "equipment": 0.25,
+        "lgb_l1": 0.75
+      },
+      "mean_fold_rmse": 637.4898173488676,
+      "mean_fold_mae": 153.80211700204106,
+      "fold_metrics": [
+        {
+          "rows": 9671,
+          "rmse": 627.1858053392125,
+          "mae": 146.63673602748813,
+          "wape_percent": 6.167966265153892,
+          "r2": 0.8229637461497105,
+          "bias": 54.89779623351531
+        },
+        {
+          "rows": 9696,
+          "rmse": 647.7938293585228,
+          "mae": 160.967497976594,
+          "wape_percent": 6.546324790689494,
+          "r2": 0.8246675917419808,
+          "bias": -133.18429221338033
+        }
+      ]
+    }
+  },
+  "locked_metrics": {
+    "enriched": {
+      "rows": 9523,
+      "rmse": 634.7943819117991,
+      "mae": 121.64872351134484,
+      "wape_percent": 5.084692048525246,
+      "r2": 0.8269676634071448,
+      "bias": -77.30791461204122
+    },
+    "core": {
+      "rows": 9523,
+      "rmse": 631.3586215077662,
+      "mae": 113.9438047612415,
+      "wape_percent": 4.762640669995737,
+      "r2": 0.82883563463804,
+      "bias": -30.965650512504958
+    },
+    "quote_baseline": {
+      "rows": 9523,
+      "rmse": 711.799751342299,
+      "mae": 246.02165250425287,
+      "wape_percent": 10.283250856608896,
+      "r2": 0.7824411335299419,
+      "bias": -42.309286319227134
+    }
+  },
+  "output_sha256": {
+    "validation_predictions.csv": "7714c4311276f5abdd69bae22cdfb2e3a88d3f5d7578ee36439ac7585e8a91f5",
+    "december_predictions.csv": "13e74943c3d9f65d595efbe29e81256fa31dd09dcfc23b1f21333012a42fe26a"
+  },
+  "reason": "Clean pipeline excluding poisoned quote_signal, correcting negative weights, and preventing route memorization."
+}

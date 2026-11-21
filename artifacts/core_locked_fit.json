@@ -1,0 +1,19 @@
+{
+  "equipment": {
+    "rounds": 1500,
+    "inner_split": null,
+    "elapsed_seconds": 0.14405425600125454,
+    "device": "cpu"
+  },
+  "lgb_l1": {
+    "rounds": 495,
+    "inner_split": {
+      "start": "2025-08-01",
+      "train_rows": 33718,
+      "valid_rows": 4759,
+      "purged": 0
+    },
+    "elapsed_seconds": 2.9507117319953977,
+    "device": "cpu"
+  }
+}
