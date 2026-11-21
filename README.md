@@ -5,7 +5,7 @@ final predictions, and an evidence-based report.
 
 ## Submission
 
-- **[Loom Walkthrough Video (2–3 mins)](https://www.loom.com/share/YOUR_LOOM_ID_HERE)** — *(Camera on: EDA findings, data cleaning, model rationale, validation split, and code walkthrough)*
+- **[Walkthrough Video (Google Drive)](https://drive.google.com/file/d/1K2KeU8DfOSOWH0XqpUDnq0SHphPmns7A/view?usp=sharing)** — *(Camera on: EDA findings, data cleaning, model rationale, validation split, and code walkthrough)*
 - [12,000 load predictions (root)](validation_predictions.csv)
 - [31 fixed December predictions](data/december_chart_inputs.csv)
 - [Interactive EDA & Modeling Notebook](notebooks/exploratory_data_analysis.ipynb)
